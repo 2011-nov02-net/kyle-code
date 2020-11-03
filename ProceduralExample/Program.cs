@@ -7,7 +7,7 @@ namespace ProceduralExample
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!!!");
-            Console.WriteLine("Entre multiple words: ");
+            Console.WriteLine("Enter multiple words: ");
             string input = Console.ReadLine();
             string [] output = input.Split(' ');
             foreach(string s in output){
